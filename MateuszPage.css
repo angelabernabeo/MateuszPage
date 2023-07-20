@@ -1,0 +1,48 @@
+.container {
+    align-items: center; 
+    float: left;
+  }
+
+  .inner_container {
+    float: left;
+  }
+
+  .image{
+    padding: 50px;
+    width: 500px;
+    float: left;
+  }
+
+  img{
+    padding: 50px;
+    width: 500px;
+    float: left;
+  }
+
+  button{
+    float: left;
+    border: none;
+        cursor: pointer;
+        appearance: none;
+        background-color: inherit;
+         transition: transform .7s ease-in-out;
+        margin-left:10px;
+  }
+  h1{
+    writing-mode: vertical-lr;
+    padding-top: 200px;
+    padding-left: 200px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .container {
+        align-items: center; 
+        width: 100%;
+    }
+    .image{
+        width: 50%;
+    }
+    h1{
+        writing-mode: horizontal-tb;
+    }
+  }
